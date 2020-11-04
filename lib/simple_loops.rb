@@ -16,8 +16,8 @@ end
 
 def output_array(tacos)
   counter = 0 
-  while counter < array.length do
-    puts array[counter]
+  while counter < tacos.length do
+    puts tacos[counter]
     counter += 1;
   end
 end
